@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+ <style>
+
+ body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.product-details
+
+{
+    background-color: thistle;
+    text-align:justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+  
+
+
+img {margin-top: 50px;
+    margin-left: 50px;
+    gap: 10px;
+    box-shadow: 10px 0 10px 0 rgb(90, 14, 80);
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+}
+img:hover
+{
+    box-shadow: 10px 0 10px 0 rgb(90, 14, 80);
+    border-radius: 25px;
+    width: 550px;
+    height: 450px;
+    padding: 10px;
+    transform: scale(1.00002);
+    transition: 1.4s;
+}
+.container {
+    
+    width: 80%;
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header,footer {
+
+    display: flex;
+    background-image: url(clod.jpg);
+    background-size: cover;
+    /* background-color: #232f3e; */
+    color: #fff;
+    padding: 10px 0;
+}
+
+button
+{
+    
+    background-color: rgba(80, 44, 151, 0.466); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 0 rgb(73, 7, 64);
+}
+
+p
+{align-items: safe;
+    margin: 10px;
+}
+button:hover
+{
+    transition-duration: 0.5s;
+    transform:scale3d(1.3,1.3,1.2);
+    color: beige;
+    background-color: rgb(99, 19, 99);
+}
+
+.logo {
+    margin: 0;
+    font-style:bold;
+    font-family: Papyrus, fantasy;
+}
+.logo:hover
+{
+    color:plum;
+    transition-duration: 1.5s;
+    transform:scale3d(1.3,1.3,1.2);
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fce9e9;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: plum;
+}
+
+.product-details {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+ </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">CloudCart</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+        <section class="product-details">
+            <img src="product1.jpg" alt="image 1">
+            <img src="art.jpg" alt="image 2">
+            <img src="art2.jpg" alt="image3">
+            <img src="art3.jpg" alt="image4">
+            <h2>The Arcade: Certification Zone</h2>
+            <p>Google Cloud Certifications provide a tangible way for you to demonstrate your skills to potential or current employers. These certifications incorporate performance-based questions, testing your hands-on expertise through practical tasks. Begin your journey towards becoming a Google Certified Professional with the help of the Arcade Cert Zone.</p>
+            <p>Price: ₹199 Credits <s> ₹ 499 Credits</s></p>
+            <p>Rating: 4.5/5(1.5k+ Reviews)</p>
+            <p>Availability: In Stock</p>
+            <button>Buy Now</button>
+            <button>Add to Cart</button>
+            <button>Show all the reviews</button>
+        </section>
+    
+    <footer>
+        <p>&copy; 2023-2024 CloudCart.com, Inc or its affiliates</p>
+    </footer>
+</body>
+</html>
